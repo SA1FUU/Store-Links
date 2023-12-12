@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4ee16d8c51.js" crossorigin="anonymous"></script>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Title -->
+    <title>Link Store</title>
+</head>
+
+
+<body>
+    <header>
+        <h1> Store Links</h1>
+    </header>
+
+    <form class="form">
+        <i class="fa-solid fa-x" id="cross"></i>
+
+        <h2>Fill Details </h2>
+        <hr>
+        <label for="title">Title for Link</label>
+        <input type="text" placeholder="Title" id="title">
+
+        <label for="link">Paste Link Here</label>
+        <input type="text" placeholder="www.example.com" id="link">
+
+        <button id="addLink">ADD LINK</button>
+        <p class="error">Lorem ipsum dolor sit amet.</p>
+    </form>
+
+    <div class="container">
+        <!-- Dynamic Links Here -->
+    </div>
+
+    <i class="fa-solid fa-plus" id="plus"></i>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
